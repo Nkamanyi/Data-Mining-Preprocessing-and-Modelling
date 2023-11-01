@@ -98,12 +98,6 @@ numeric_data = data.data
 
 % Step 3: Count Missing Values for Each Variable
 numb_missing_values = sum(isnan(numeric_data));
-%%
-% 
-%   for x = 1:10
-%       disp(x)
-%   end
-% 
 
 disp(['Number of Cases: ', num2str(num_row)]);
 disp(['Number of Variables: ', num2str(num_col)]);
